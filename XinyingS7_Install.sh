@@ -4,6 +4,7 @@ sudo pip3 install python-time
 sudo pip3 install python-math 
 sudo pip3 install psutil
 sudo git clone https://github.com/gijzelaerr/snap7-debian.git
+sudo git clone https://github.com/popeye11/Xinying_demo.git
 cd snap7-debian/build/unix && sudo make -f arm_v7_linux.mk all
 sudo cp ../bin/arm_v7-linux/libsnap7.so /usr/lib/libsnap7.so
 sudo cp ../bin/arm_v7-linux/libsnap7.so /usr/local/lib/libsnap7.so
