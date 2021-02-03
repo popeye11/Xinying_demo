@@ -10,8 +10,8 @@ sudo cp ../bin/arm_v7-linux/libsnap7.so /usr/lib/libsnap7.so
 sudo cp ../bin/arm_v7-linux/libsnap7.so /usr/local/lib/libsnap7.so
 sudo ldconfig
 sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-sudo unzip ngrok-stable-linux-arm.zip
-sudo ./ngrok authtoken 1nsuGo6Ddbbgi4AZZp17rXEOUrK_6Jb5Rkiwy4YU6H73x7h4g
+#sudo unzip ngrok-stable-linux-arm.zip
+#sudo ./ngrok authtoken 1nsuGo6Ddbbgi4AZZp17rXEOUrK_6Jb5Rkiwy4YU6H73x7h4g
 sudo pip3 install python-snap7
 sudo pip3 install simplejson
 sudo pip3 install paho-mqtt

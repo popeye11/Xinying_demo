@@ -52,8 +52,8 @@ def step_fun_plc():
 def step_fun_upload_ip():
     try:
         ipadr = s7XinyingLib.get_ip()
-        ngrok_adr = s7XinyingLib.get_ngrok_url()
-        s7XinyingLib.ip_upload(auth_url,optIn_url,api_ip_upload,api_password,organId,devId,ipadr,ngrok_adr)
+        #ngrok_adr = s7XinyingLib.get_ngrok_url()
+        s7XinyingLib.ip_upload(auth_url,optIn_url,api_ip_upload,api_password,organId,devId,ipadr,"reserve.net")
     except:
         print("upload ip or ngrok_address failed")
     #ip_upload(auth_url,optIn_url,api_ip_upload,api_password,organId,devId,ipadr)
