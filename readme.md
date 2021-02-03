@@ -5,8 +5,7 @@
 	echo Running at boot
 	sh /home/pi/SIM7600_NDIS/sim7600_4G_hat_init
 	sudo /usr/bin/python3 /home/pi/Documents/Xinying_demo01/dial.py
-	sleep 2
-        ./ngrok tcp 20& 
+	sleep 2 
 	sudo python3 /home/pi/Documents/Xinying_demo01/s7readApp.py
 
 5. sudo raspi-config->1.System options->Select->Boot/ Auto Login-> B2 Console Autologin Text console
